@@ -7,6 +7,10 @@
     --backgroundImage2: url("../img/rei_do_kuduairo.png");
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -171,32 +175,72 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .post{
     width: 600px;
-    height: 250px;
+    height: 400px;
     border-style: solid;
     border-color: var(--borderColor);
     border-radius: 15px;
     margin-bottom: 10px;
+    
 }
+.posted-by{
+    display: inline-flex;
+    margin-left: 5px;
+}
+
 .post-header{
     display: flex;
     margin-left: 5px;
+    justify-content: space-between;
 
 }
 
 .post-header-text{
     margin-left: 5px;
 }
-.posted-by{
-    display: flex;
-    flex-direction: column;
-}
 
 .sub-link{
     margin-left: 5px;
     color: darkgreen;
+}
 
+.post-votes{
+    display: inline-flex;
+    margin-right: 10px;
+    
+}
+
+.votes p{
+    margin: 0;
+    text-align: center;
+    color: green;
+}
+
+.votes{
+    margin-left: 5px;
+}
+.post-img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.post-img img{
+    align-items: center;
+    width: 500px;
+    height: 200px;
+}
+.post-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-text{
+    margin-left: 20px;
+    margin-right: 20px;
 }
