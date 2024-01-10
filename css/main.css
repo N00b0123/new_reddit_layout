@@ -3,8 +3,8 @@
     --asideColor: #ded6d5;
     --centerColor: #bfbaba;
     --borderColor: black;
-    --backgroundImage: url("/img/lumbago.jpg");
-    --backgroundImage2: url("/img/rei_do_kuduairo.png");
+    --backgroundImage: url("../img/lumbago.jpg");
+    --backgroundImage2: url("../img/rei_do_kuduairo.png");
 }
 
 .material-icons.md-18 { font-size: 18px; }
