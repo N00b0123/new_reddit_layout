@@ -1,0 +1,202 @@
+:root{
+    --heightSize: 640px;
+    --asideColor: #ded6d5;
+    --centerColor: #bfbaba;
+    --borderColor: black;
+    --backgroundImage: url("/img/lumbago.jpg");
+    --backgroundImage2: url("/img/rei_do_kuduairo.png");
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+body{
+    height: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h1{
+    margin-bottom: 0;
+}
+h3{
+    margin: 0;
+} 
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+}
+
+.l-aside{
+    height: var(--heightSize);
+    background-color: var(--asideColor);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    }
+
+.center{
+    height: var(--heightSize);
+    width: 50%;
+    background-color: var(--centerColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.r-aside{
+    height: var(--heightSize);
+    background-color: var(--asideColor);
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* start L-aside */
+.site-name{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.site-name-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-image{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.user-name{
+    text-align: center;
+}
+/* end L-aside */
+
+/* start R-aside */
+.utility-icons{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.subs-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-box{
+    height: 50px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--borderColor);
+    align-items: center;
+    background-image: var(--backgroundImage);
+    background-size: contain;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.sub-box2{
+    height: 50px;
+    width: 200px;
+    border: 2px;
+    border-style: solid;
+    border-color: var(--borderColor);
+    align-items: center;
+    background-image: var(--backgroundImage2);
+    background-size: contain;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+.sub-name{
+    display: inline;
+    text-align: start;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: var(--asideColor);
+}
+/* End R-aside */
+
+/* start Center */
+.search{
+    display: flex;
+}
+
+.search-icon{
+    margin-top: 5px;
+}
+
+.search-bar{
+    margin-top: 10px;
+    display: flex;
+    width: 500px;
+    height: 30px;
+    border-style: solid;
+    border-color: var(--borderColor);
+    border-radius: 15px;
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post{
+    width: 600px;
+    height: 250px;
+    border-style: solid;
+    border-color: var(--borderColor);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.post-header{
+    display: flex;
+    margin-left: 5px;
+
+}
+
+.post-header-text{
+    margin-left: 5px;
+}
+.posted-by{
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-link{
+    margin-left: 5px;
+    color: darkgreen;
+
+}
